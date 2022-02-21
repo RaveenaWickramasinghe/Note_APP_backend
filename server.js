@@ -25,6 +25,7 @@ mongoose.connection.once('open', () =>{
   console.log('Database Synced');
 });
 
+
 app.listen(PORT, () =>{
   console.log('Server is Up and Running on PORT ${PORT}');
 });
